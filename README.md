@@ -55,6 +55,7 @@ abrir o expo no celular e ler o qrcode
 
 ## executar no emulador
 pressiona a para abrir no android
+```
 
 ## 🛠️ Construído com
 
