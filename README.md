@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# NFT MARKETPLACE 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sobre o projeto
 
-## Available Scripts
+Aplicativo mobile que apresenta uma coleção de nft.
 
-In the project directory, you can run:
+### Explicação
 
-### `npm start`
+- Exemplo do funcionamento do sistema
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Usuário
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Na tela principal é apresentado informações do usuário logado, uma area para pesquisar uma nft pelo nome e uma lista de nft com informações sobre ela 
+- Quando selecionado a nft a tela de detalhes é aberta e permite que o usuário de uma proposta na nft e tambem favorite ela 
 
-### `npm test`
+### Tela home
+<img src= "imgs/home-screen.jpg" alt="Home" width= "250" />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tela pesquisa
+<img src= "imgs/search-screen.jpg" alt="Search" width= "250" />
 
-### `npm run build`
+### Tela detalhes
+<img src= "imgs/detail-1-screen.jpg" alt="D1" width= "250" />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tela detalhes
+<img src= "imgs/detail-2-screen.jpg" alt="D2" width= "250" />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 🚀 Começando
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-### `npm run eject`
+## 📋 Pré-requisitos
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- expo
+- virtual device ou aplicativo expo no smartphone
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔧 Instalação
+### :warning::warning: **A pasta imgs**: é para guardar as imagens usadas no readme.md! Apagar ela depois do clone :warning::warning:
+``` bash
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## clonar repositório
+git clone https://github.com/PauloCSantos/nft-marketplace.git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## entrar na pasta do projeto
+cd nft-marketplace
 
-## Learn More
+## instalar as dependencias
+expo install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## executar o projeto
+expo start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## executar no app expo 
+abrir o expo no celular e ler o qrcode
 
-### Code Splitting
+## executar no emulador
+pressiona a para abrir no android
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🛠️ Construído com
 
-### Analyzing the Bundle Size
+- React Native 
+- React Native Navigation
+- CSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ✒️ Autor
 
-### Making a Progressive Web App
+* **Paulo C Santos** - [Linkedin](https://www.linkedin.com/in/paulocsantos1995/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🖐️ Agradecimento
 
-### Advanced Configuration
+Agradeço ao canal JavaScript Mastery pela aula
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-Link do canal: https://www.youtube.com/c/JavaScriptMastery
